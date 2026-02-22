@@ -108,6 +108,6 @@ if __name__ == "__main__":
                     print(e)
                     continue
             else:
-                print(f"✓ Already correct: {file}")
+                continue
 
     print(f"Time to process {c} files: {time.time()-start_time}")
